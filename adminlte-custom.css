@@ -1,0 +1,106 @@
+/* AdminLTE Custom Overrides */
+
+/* Sidebar */
+.main-sidebar {
+    background: var(--dark-color) !important;
+}
+
+.brand-link {
+    border-bottom: 1px solid #2c3e50;
+}
+
+.brand-link .brand-text {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.brand-icon {
+    font-size: 1.8rem;
+    color: #3498db;
+}
+
+/* Navbar */
+.main-header {
+    border-bottom: 1px solid #34495e;
+}
+
+.navbar-nav .nav-link {
+    border-radius: 20px;
+    margin: 0 2px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-2px);
+}
+
+/* Content */
+.content-wrapper {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background: white;
+    border-bottom: 1px solid #e9ecef;
+    border-radius: 15px 15px 0 0 !important;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+/* Footer */
+.main-footer {
+    background: var(--dark-color);
+    color: white;
+    border-top: 1px solid #34495e;
+}
+
+/* Dark Mode Adjustments */
+.dark-mode .card {
+    background: rgba(255,255,255,0.95);
+}
+
+.dark-mode .form-control {
+    background: white;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background: var(--light-color);
+    transform: translateX(5px);
+}
+
+/* Badge in Sidebar */
+.nav-sidebar .nav-item > .nav-link .right {
+    right: 10px;
+    font-size: 0.8rem;
+}
